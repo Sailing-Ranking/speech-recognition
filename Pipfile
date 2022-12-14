@@ -18,6 +18,9 @@ setuptools-rust = "*"
 pyaudio = "*"
 isort = "*"
 black = "*"
+noisereduce = "*"
+scipy = "*"
+librosa = "*"
 
 [dev-packages]
 

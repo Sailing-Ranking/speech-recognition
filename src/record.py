@@ -5,7 +5,7 @@ import pyaudio
 
 chunk = 1024  # Record in chunks of 1024 samples
 sample_format = pyaudio.paInt16  # 16 bits per sample
-channels = 2
+channels = 1
 sample_rate = 44100  # Record at 44100 samples per second
 seconds = 5
 filename = f"data/recordings/{uuid4()}.wav"

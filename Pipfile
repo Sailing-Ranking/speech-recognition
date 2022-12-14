@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "*"
+torchaudio = "*"
+torchvision = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+scikit-learn = "*"
+transformers = "*"
+datasets = "*"
+ffmpeg-python = "*"
+setuptools-rust = "*"
+pyaudio = "*"
+isort = "*"
+black = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.6"
